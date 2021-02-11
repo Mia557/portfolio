@@ -2,6 +2,8 @@
 
 .left {
     float: left;
+    color: white;
+    align-items: flex-end;
 }
 .right {
     float: right;
@@ -17,4 +19,11 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+#about-me {
+    background-image: url(abt.png);
+    background-image: cover;
+}
+.text {
+    color: white;
 }
