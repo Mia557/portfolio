@@ -1,7 +1,23 @@
 .jumbotron {
-    background-size: cover;
+    min-height: 500px;
     padding: 20%;
     background-image: url(final.png);
-   
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'lobster';
+    margin-top: -40px;
+    color: white;
 }
-
+.abt-title {
+    background: black;
+   color: grey;
+   margin: 0;
+   text-align: center;
+}
+.abt {
+   background: black;
+   color: grey;
+   margin: 0;
+   }
