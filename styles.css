@@ -1,14 +1,7 @@
 
-
-.left {
-    float: left;
+.lead {
     color: white;
-    align-items: flex-end;
 }
-.right {
-    float: right;
-}
-
 
 .jumbotron {
     height:700px;
@@ -20,10 +13,16 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-#about-me {
-    background-image: url(abt.png);
-    background-image: cover;
-}
 .text {
     color: white;
+}
+.title {
+    text-align: center;
+    color: grey;
+}
+
+.abt {
+    color: grey;
+    background-color: black;
+    padding: 15%;
 }
