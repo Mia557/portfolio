@@ -9,18 +9,18 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
-}
-.lead{
-    vertical-align: bottom;
+    color: white;
+    padding-top: 300px;
+    padding-left: 100px;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 2px 2px 5px tan;
 }
 
-.text {
-    color: white;
-}
+
 .title {
     text-align: center;
     color: grey;
+    font-family: 'Righteous', cursive;
 }
 
 .wrapper {
@@ -28,9 +28,10 @@
    padding: 15%;
     background-color: black;
     border: 1px solid white;
-   
-    text-align: justify;
+   text-align: justify;
+   font-family: 'Montserrat', sans-serif;
 }
+
 .div {
     padding: 5%;
     background-color: rgb(210,180,140);
@@ -38,8 +39,19 @@
 .projects {
     color: white;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 .card-body {
    background-color:grey;
    box-shadow: 0 0px 20px black;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    height: 200px;
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+    
 }
