@@ -10,10 +10,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    padding-top: 300px;
+    padding-top: 250px;
     padding-left: 100px;
     font-family: 'Montserrat', sans-serif;
-    text-shadow: 2px 2px 5px tan;
     text-indent: 50px;
 }
 
@@ -43,9 +42,12 @@
     padding: 20%;
 }
 
-.card-body {
-   background-color:grey;
-   box-shadow: 0 0px 20px black;
+
+.contact-title {
+    border-style: solid;
+    margin-top: 5px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .contact{
@@ -54,11 +56,6 @@
    padding: 20%;
 }
 
-
-.contact-title {
-    border-style: solid;
-    margin-top: 50px;
-}
 
 .footer {
     background-color: black;
