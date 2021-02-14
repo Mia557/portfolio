@@ -28,23 +28,36 @@
     color: grey;  
    padding: 15%;
     background-color: black;
-    border: 1px solid white;
    text-align: justify;
    font-family: 'Montserrat', sans-serif;
 }
 
-.div {
-    padding: 5%;
-    background-color: rgb(210,180,140);
-}
 .projects {
-    color: white;
+    color: grey;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+    /*
+    background-image: linear-gradient(to bottom right,  rgb(251,247,235),rgb(210,180,140));
+    */
+    background-color: black;
+    padding: 20%;
 }
+
 .card-body {
    background-color:grey;
    box-shadow: 0 0px 20px black;
+}
+
+.contact-card {
+    background-image: linear-gradient(to bottom right, rgb(210,180,140), rgb(251,247,235));
+    text-align: center;
+    height:700px;
+    width: 100%;
+   
+}
+.contact-title {
+    padding-bottom: 700;
+    text-align: center;
 }
 
 .footer {
