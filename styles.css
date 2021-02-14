@@ -1,6 +1,5 @@
 
 .jumbotron {
-
     height:700px;
     width: 100%;
    
@@ -16,31 +15,21 @@
     text-indent: 50px;
 }
 
-
 .title {
     text-align: center;
     color: grey;
-    font-family: 'Righteous', cursive;
+    font-family: 'Montserrat', sans-serif;
 }
-
+/*about me */
 .wrapper {
     color: grey;  
-   padding: 15%;
+   padding: 5%;
     background-color: black;
-   text-align: justify;
    font-family: 'Montserrat', sans-serif;
+   text-indent: 50px;
 }
 
-.projects {
-    color: grey;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    /*
-    background-image: linear-gradient(to bottom right,  rgb(251,247,235),rgb(210,180,140));
-    */
-    background-color: black;
-    padding: 20%;
-}
+
 
 
 .contact-title {
