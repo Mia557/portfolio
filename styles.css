@@ -11,8 +11,11 @@
     padding-top: 250px;
     padding-left: 100px;
     font-family: 'Montserrat', sans-serif;
-    @media screen and (max-width: 600px) 
-     body  background-image: url(white-outline.png);
+     @media screen and (max-width: 600px) {
+        body {
+          background-color: url(white-outline.png);
+        }
+      }
    }
 
 .title {
