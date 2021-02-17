@@ -29,7 +29,7 @@
 </head>
 
 <!--navbar-->
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-transparent">
   <a class="navbar-brand" href="#">Fixed navbar</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -37,13 +37,13 @@
   <div class="collapse navbar-collapse" id="navbarCollapse">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="#about-me">About Me</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
+        <a class="nav-link" href="">Contact Me</a>
       </li>
     </ul>
     <form class="form-inline mt-2 mt-md-0">
@@ -61,10 +61,10 @@
 <body>
     <!--jumbotron-->
 
-    <div class="jumbotron" id="back-to-top">
+    <div class="jumbotron" id="home" id="back-to-top">
       <p>Hi my name is</p>
       <h1>Mia Goodwin</h1>
-      <p>I'ma student at bitwise Industries.</p>
+      <p>I'm a student at bitwise Industries.</p>
     
     </div>
 
@@ -79,28 +79,39 @@
  
 
       <!--Contact me --> 
-
-      <div class="contact">
-
-        <h1 class="contact-title">
-          Contact
-        </h1>
-
-        <div class="form-label-group">
-          <input type="email" id="inputEmail" class="form-control" placeholder="Full Name" required="" autofocus="">
-          <label for="inputEmail"></label>
-        </div>
-        <div class="form-label-group">
-          <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
-          <label for="inputEmail"></label>
-        </div>
-        <div class="form-label-group">
-          <input type="email" id="inputEmail" class="form-control" placeholder="Leave a Message" required="" autofocus="">
-          <label for="inputEmail"></label>
-          <button class="btn btn-lg btn-block" type="submit">Submit</button>
-        </div>
-      </div>
-      </div>
+      
+      <section class="border p-4 d-flex justify-content-center mb-4">
+        <form id="contact-form" class="text-center" style="width: 100%; max-width: 300px">
+          <h2>Contact Me</h2>
+  
+          <!-- Name input -->
+          <div class="form-outline mb-4">
+            <input type="text" id="name" name="name" class="form-control">
+            <label class="form-label" for="name" style="margin-left: 0px;">Name</label>
+          <div class="form-notch"><div class="form-notch-leading" style="width: 9px;"></div><div class="form-notch-middle" style="width: 41.6px;"></div><div class="form-notch-trailing"></div></div></div>
+  
+          <!-- Email input -->
+          <div class="form-outline mb-4">
+            <input type="email" id="email" name="email" class="form-control">
+            <label class="form-label" for="email" style="margin-left: 0px;">Email address</label>
+          <div class="form-notch"><div class="form-notch-leading" style="width: 9px;"></div><div class="form-notch-middle" style="width: 88.8px;"></div><div class="form-notch-trailing"></div></div></div>
+  
+          <!-- Subject input -->
+          <div class="form-outline mb-4">
+            <input type="text" id="subject" name="subject" class="form-control">
+            <label class="form-label" for="subject" style="margin-left: 0px;">Subject</label>
+          <div class="form-notch"><div class="form-notch-leading" style="width: 9px;"></div><div class="form-notch-middle" style="width: 50.4px;"></div><div class="form-notch-trailing"></div></div></div>
+  
+          <!-- Message input -->
+          <div class="form-outline mb-4">
+            <textarea class="form-control" id="message" name="message" rows="4"></textarea>
+            <label class="form-label" for="message" style="margin-left: 0px;">Message</label>
+          <div class="form-notch"><div class="form-notch-leading" style="width: 9px;"></div><div class="form-notch-middle" style="width: 60px;"></div><div class="form-notch-trailing"></div></div></div>
+  
+          <!-- Submit button -->
+          <button class="btn btn-primary btn-block mb-4 ripple-surface">Send</button>
+        </form>
+      </section>
 
       <!--footer-->
       <footer>

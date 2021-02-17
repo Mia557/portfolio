@@ -2,7 +2,6 @@
 .jumbotron {
     height:700px;
     width: 100%;
-   
     background-image: url(white-outline.png);
     background-attachment: fixed;
     background-position: center;
@@ -13,7 +12,9 @@
     padding-left: 100px;
     font-family: 'Montserrat', sans-serif;
     text-indent: 50px;
-}
+    @media screen and (max-width: 600px) 
+     body  background-image: url(white-outline.png);
+   }
 
 .title {
     text-align: center;
@@ -31,7 +32,7 @@
 
 
 
-
+/*
 .contact-title {
     border-style: solid;
     margin-top: 5px;
@@ -42,9 +43,14 @@
 .contact{
     background-image: linear-gradient(to bottom right, rgb(210,180,140), rgb(251,247,235));
     text-align: center;
-   padding: 20%;
+   padding: 10%;
 }
-
+*/
+.border {
+    background-image: linear-gradient(to bottom right, rgb(210,180,140), rgb(251,247,235));
+    padding: 5%;
+  
+}
 
 .footer {
     background-color: black;
