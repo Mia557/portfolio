@@ -11,7 +11,7 @@
     padding-top: 250px;
     padding-left: 100px;
     font-family: 'Montserrat', sans-serif;
-    text-indent: 50px;
+    
     @media screen and (max-width: 600px) 
      body  background-image: url(white-outline.png);
    }
@@ -28,9 +28,8 @@
     background-color: black;
    font-family: 'Montserrat', sans-serif;
    text-indent: 50px;
+   text-align: center;
 }
-
-
 
 /*
 .contact-title {
@@ -46,11 +45,20 @@
    padding: 10%;
 }
 */
-.border {
-    background-image: linear-gradient(to bottom right, rgb(210,180,140), rgb(251,247,235));
-    padding: 5%;
-  
+.contact-title {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
+
+.contact{
+    background-image: linear-gradient(to bottom right, rgb(210,180,140), rgb(251,247,235));
+    padding: 20%;
+}
+
+.form-group {
+    padding: 10px;
+}
+
 
 .footer {
     background-color: black;
