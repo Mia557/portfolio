@@ -16,7 +16,13 @@
           background-color: url(white-outline.png);
         }
       }
+      @media screen and (max-width: 600px) {
+        body {
+          background-color: url(white-outline.png);
+        }
+      }
    }
+
 
 .title {
     text-align: center;
@@ -29,7 +35,7 @@
    padding: 5%;
     background-color: black;
    font-family: 'Montserrat', sans-serif;
-   text-indent: 50px;
+  
    text-align: center;
 }
 
