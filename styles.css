@@ -33,7 +33,7 @@
 .wrapper {
     color: grey;  
    padding: 5%;
-    background-color: black;
+    background-image: url(826405.jpg);
    font-family: 'Montserrat', sans-serif;
   
    text-align: center;
@@ -54,6 +54,11 @@
     padding: 10px;
 }
 
+.websites {
+    background-image: url(rotate.png);
+    background-size: cover;
+    padding: 20%;
+}
 
 .footer {
     background-color: black;
